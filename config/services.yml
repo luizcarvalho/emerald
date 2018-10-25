@@ -1,0 +1,25 @@
+default: &default
+  facebook:
+    verify_token: <%= ENV['VERIFY_TOKEN'] %>
+    page_access_token: <%= ENV['FACEBOOK_PAGE_ACCESS_TOKEN'] %>
+    setup:
+      greeting: # Greetings are broken up by locale
+        - locale: default
+          text: "Welcome to the Stealth bot 🤖"
+      persistent_menu:
+        - type: payload
+          text: Main Menu
+          payload: main_menu
+        - type: url
+          text: Visit our website
+          url: https://example.com
+        - type: call
+          text: Call us
+          payload: "+4155330000"
+
+production:
+  <<: *default
+development:
+  <<: *default
+test:
+  <<: *default
