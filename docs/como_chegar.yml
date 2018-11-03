@@ -1,0 +1,14 @@
+- reply_type: text
+  text: |
+    Utilize nosso link de localização do Maps, com ele é fácil você chegar de qualquer lugar do mundo.
+    Localização: https://goo.gl/maps/AB2Bp7Uewct
+
+- reply_type: text
+  text: |
+    Veja também o link do vídeo mostrando como chegar de carro até a entrada da cachoeira. =)
+    Vídeo de como chegar de carro: https://www.youtube.com/watch?v=QKkGbLWnDKY
+
+  buttons:
+    - type: payload
+      text: 'Voltar'
+      payload: 'MAIN_MENU'

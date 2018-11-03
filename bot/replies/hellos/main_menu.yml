@@ -1,0 +1,12 @@
+- reply_type: text
+  text: Como posso te ajudar?
+  buttons:
+    - type: payload
+      text: 'Como chegar'
+      payload: 'COMO_CHEGAR'
+    - type: payload
+      text: 'Informações'
+      payload: 'INFORMACOES'
+    - type: payload
+      text: 'Cardápio'
+      payload: 'CARDAPIO'

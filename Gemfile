@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'stealth', '~> 1.0'
+gem 'stealth'
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 

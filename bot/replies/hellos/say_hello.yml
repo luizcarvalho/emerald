@@ -1,2 +1,8 @@
 - reply_type: text
-  text: Hello World!
+  text: |
+    Olá! Que bom que entrou em contato.
+    Sou a assistente virtual da Cachoeira Esmeralda. Posso te auxiliar tirando alguma de suas dúvidas e te ajudando a encontrar nossa cachoeira.
+  buttons:
+    - type: payload
+      text: 'Começar'
+      payload: 'MAIN_MENU'
