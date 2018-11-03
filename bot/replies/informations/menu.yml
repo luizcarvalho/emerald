@@ -1,0 +1,33 @@
+- reply_type: text
+  text: |
+    Cardápio comida
+
+    🔹 Comida Caseira (Galinhada, Maria Izabel, etc) ..................... R$ 10,00
+    🔹 Paçoca de carne de sol... R$ 5,00
+    🔹 Espetinho completo acompanha: Macaxeira, Vinagrete e Farofa....15,00
+- reply_type: delay
+  duration: 1
+
+- reply_type: text
+  text: |
+    ## Cardápio dos lanches
+
+    🔹 Bolos de pote................... R$ 7,00
+    🔹 Brigadeirão com frutas.... R$ 3,00 
+    🔹 Misto Quente.........4,00
+    🔹 Sanduíche Natural..... 5,00
+    🔹 Salada de fruta no pote....5,00
+    🔹 Sucos Naturais 430ml....5,00
+    🔹 Suco de Laranja.......6,00
+- reply_type: delay
+  duration: 1
+  
+- reply_type: text
+  text: |
+    Comidas e lanches são vendidos apenas finais de semana.
+
+    O cardápio pode variar de acordo com o dia.
+  buttons:
+    - type: payload
+      text: 'Voltar'
+      payload: 'MAIN_MENU'

@@ -3,10 +3,9 @@ class FlowMap
   include Stealth::Flow
 
 	flow :informations do
-		state :ask_example
-		state :get_example
-		state :say_yes_example
-		state :say_no_example
+		state :directions
+		state :general
+		state :menu
 	end
 
 

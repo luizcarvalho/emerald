@@ -1,0 +1,17 @@
+- reply_type: text
+  text: |
+    - Entrada R$ 10,00 (por pessoa) 
+    - Caso queira levar sua própria, comida cobramos uma taxa de R$, 20,00 (por grupo). Caso prefira estaremos oferecendo comida lá. Confira nosso cardápio. 
+    - Cachoeira 100% natural para ecoturismo. 
+    - Possui escada de acesso. 
+    - Existem placas indicativas no trajeto. 
+    - É proibido fazer churrasco na parte de baixo da cachoeira.
+    - Cachoeira é totalmente acessível de carro pequeno. Veja nosso vídeo de como chegar de carro: https://www.youtube.com/watch?v=QKkGbLWnDKY
+  buttons:
+    - type: payload
+      text: 'Cardápio'
+      payload: 'MENU'
+  buttons:
+    - type: payload
+      text: 'Voltar'
+      payload: 'MAIN_MENU'

@@ -13,6 +13,12 @@ class BotController < Stealth::Controller
     case current_message.payload
     when 'MAIN_MENU'
       step_to flow: 'hello', state: 'main_menu'
+    when 'DIRECTIONS'
+      step_to flow: 'informations', state: 'directions'
+    when 'GENERAL'
+      step_to flow: 'informations', state: 'general'
+    when 'MENU'
+      step_to flow: 'informations', state: 'menu'
     else
       step_to flow: 'hello', state: 'say_hello'
     end

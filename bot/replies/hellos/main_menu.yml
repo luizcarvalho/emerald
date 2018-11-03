@@ -3,10 +3,10 @@
   buttons:
     - type: payload
       text: 'Como chegar'
-      payload: 'COMO_CHEGAR'
+      payload: 'DIRECTIONS'
     - type: payload
       text: 'Informações'
-      payload: 'INFORMACOES'
+      payload: 'GENERAL'
     - type: payload
       text: 'Cardápio'
-      payload: 'CARDAPIO'
+      payload: 'MENU'
